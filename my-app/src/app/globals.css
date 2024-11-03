@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+  background: #222831;
+  display: flex;
+  justify-content: space-evenly;
+  color: #eeeeee;
+  height: 50px;
+  align-items: center;
+}
+.header li:hover{
+  cursor: pointer;
+  color: #0092ca;
+}
+.Page{
+  height: 640px;
+  width: 100%;
+  justify-items: center;
+}
+.Head{
+  font-size: 62px;
+  font-weight: bolder;
+  color: #393e46;
+  text-decoration: underline;
+}
+.Para{
+  width: 550px;
+  font-family: cursive;
+}
+.footer{
+  background: #222831;
+  color: #eeeeee;
+  justify-items: center;
+  align-content: center;
+  height: 40px;
+  width: 100%;
+}
+.lineBreak{
+  height: 1.5px;
+  width: 800px;
+  background-color: #eeeeee;
+  margin-top: 2px; 
+}
