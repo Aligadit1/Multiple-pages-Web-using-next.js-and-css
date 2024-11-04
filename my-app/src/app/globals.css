@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 .header{
   background: #222831;
   display: flex;
@@ -15,7 +14,6 @@
   color: #0092ca;
 }
 .Page{
-  height: 640px;
   width: 100%;
   justify-items: center;
 }
@@ -26,7 +24,7 @@
   text-decoration: underline;
 }
 .Para{
-  width: 550px;
+  width: 80%;
   font-family: cursive;
 }
 .footer{
@@ -34,12 +32,66 @@
   color: #eeeeee;
   justify-items: center;
   align-content: center;
-  height: 40px;
+  height: 50px;
   width: 100%;
+  padding-left: 10px;
+  position: absolute;
+  bottom: 0;
 }
 .lineBreak{
   height: 1.5px;
-  width: 800px;
+  width: 80%;
   background-color: #eeeeee;
   margin-top: 2px; 
+}
+.hamburger{
+  height: 4px;
+  width: 30px;
+  background-color:#0092ca;
+  top: 10px;
+  right: 10px;
+  margin: 5px 0;
+  display: none;
+}
+.hamburger1{
+  position: absolute;
+  top: 3.5px;
+  right: 10px;
+}
+.hamburger2{
+  position: absolute;
+  top: 11.5px;
+  right: 10px;
+}
+.hamburger3{
+  position: absolute;
+  top: 19.5px;
+  right: 10px;
+}
+@media only screen and (max-width:500px) {
+  .header{
+    flex-direction: column;
+    height: 126px;
+    gap: 20px;
+  }
+  .header-div{
+    background: #222831;
+  }
+  .header-li {
+    display: none;
+  }
+.Head{
+  font-size: 32px;
+}
+.hamburger{
+  display: block;
+  cursor: pointer
+}
+.hamburgerDiv{
+  height: 35px;
+  background: #222831;
+}
+.Para{
+  font-size: 9px;
+}
 }
