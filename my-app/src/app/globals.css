@@ -31,10 +31,12 @@
   font-family: cursive;
 }
 .footer{
+  display: flex;
+  flex-direction: column;
   background: #222831;
   color: #eeeeee;
-  justify-items: center;
-  align-content: center;
+  justify-content: center;
+  align-items: center;
   height: 50px;
   width: 100%;
   padding-left: 10px;
