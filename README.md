@@ -1,60 +1,47 @@
-# 🌐 Multiple Pages Website using Next.js
+🌐 Multiple Pages Website using Next.js
+This project showcases building a multi-page website using Next.js in two versions:
 
-This project demonstrates building a multi-page website using Next.js, implemented first with traditional CSS and then rebuilt using Tailwind CSS to ensure full responsiveness and streamlined styling.
+The first version uses traditional CSS for styling and is deployed live.
+The second version uses Tailwind CSS for a fully responsive and maintainable design, with source code available on GitHub.
+🔗 Live Demo
+Next.js + Normal CSS (Deployed):
+https://github.com/Aligadit1/multiple-pages-web-using-next-js-and-css-kqei.vercel.app/
 
----
+Next.js + Tailwind CSS (Source Code):
+https://github.com/Aligadit1/Multiple-pages-webApp-using-next.js-and-tailwind.css
 
-## 🔗 Live Demo
+🎯 Project Overview
+This project demonstrates the same multi-page website built twice to compare styling methods:
 
-- [Next.js + Normal CSS Version](https://multiple-pages-web-using-next-js-and-css-kqei.vercel.app/)  
+Next.js + Normal CSS:
 
-## 🎯 Project Overview
+Uses classic CSS files for styling
+Manual handling of responsiveness
+Deployed and accessible online
+Next.js + Tailwind CSS:
 
-This project contains two implementations of the same multi-page website:
+Uses Tailwind CSS utility classes
+Responsive design with minimal custom CSS
+Easier maintenance and scalability
+Source code available on GitHub
+🛠 Technologies Used
+Next.js – React-based framework for server-side rendering and routing
+CSS – Traditional stylesheet approach
+Tailwind CSS – Utility-first CSS framework for responsive design
+🚀 How to Run Locally
+For the Tailwind CSS version:
 
-1. **Next.js + Normal CSS:**  
-   - Uses standard CSS files for styling  
-   - Basic responsive design manually handled  
-   - Demonstrates page routing with Next.js
+Clone the repository:
+git clone https://github.com/Aligadit1/Multiple-pages-webApp-using-next.js-and-tailwind.css.git
+cd Multiple-pages-webApp-using-next.js-and-tailwind.css
+Install dependencies: npm install Start the development server: npm run dev Open http://localhost:3000 in your browser.
 
-2. **Next.js + Tailwind CSS:**  
-   - Uses Tailwind CSS utility classes for styling  
-   - Fully responsive design with ease  
-   - Cleaner and more maintainable styling code  
-   - Leverages Tailwind’s responsive utilities for mobile-first design
+For the CSS version, simply visit the deployed link above or clone and run your own instance similarly if available. 🔍 Key Learnings Building scalable multi-page apps with Next.js
 
----
+Styling with plain CSS vs Tailwind CSS
 
-## 🛠 Technologies Used
+Advantages of utility-first CSS for responsiveness and maintenance
 
-- Next.js – React framework for SSR and routing  
-- CSS – Traditional stylesheet for the first version  
-- Tailwind CSS – Utility-first CSS framework for the second version
+Effective routing and layout management in Next.js
 
----
-
-## 🚀 How to Run Locally
-
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/your-username/multi-page-nextjs.git
-   cd multi-page-nextjs
-Install dependencies:
-
-npm install
-Run the development server:
-npm run dev
-Open http://localhost:3000 to view in your browser.
-
-
-🔍 Key Learnings
-How to manage multiple pages in Next.js using the pages directory
-
-Differences in styling approaches: traditional CSS vs Tailwind CSS
-
-Advantages of Tailwind CSS for responsive and maintainable styling
-
-How Tailwind utility classes simplify responsiveness and design consistency
-
-🙌 Acknowledgments
-This project was created to explore and compare CSS styling methods within Next.js and to improve responsive web design skills.
+🙌 Acknowledgments This project was inspired by the need to understand and compare different CSS styling approaches in Next.js projects.
